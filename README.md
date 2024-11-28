@@ -1,3 +1,26 @@
+## Commands sa table or databse postgress para ka add2 delete update ka sa databae 
+
+--- Update the brand name:
+
+Input: ~ Paracetamol brandname to Biogesic
+Chatbot Response: Brand name updated from 'Paracetamol' to 'Biogesic'.
+
+--- Update the active ingredient:
+
+Input:  
+Chatbot Response: Active ingredient for 'Biogesic' updated to 'Acetaminophen'.
+
+--- Delete a medicine:
+
+Input: - Ibuprofen
+Chatbot Response: Medicine with brand name 'Ibuprofen' deleted successfully.
+
+--- Add a New Medicine:
+
+Input: + Ibuprofen active=Ibuprofen price=50
+Chatbot will add the new medicine to the database and update the table/grid.
+
+
 # chat-bot-oomsik
 
 This project can be used as a starting point to create your own Vaadin application with Spring Boot.

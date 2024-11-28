@@ -1,6 +1,6 @@
 package com.example.application.security;
 
-import com.example.application.views.login.LoginView;
+import com.example.application.views.chatbot.chatbot;
 import com.vaadin.flow.spring.security.VaadinWebSecurity;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -30,7 +30,7 @@ public class SecurityConfiguration extends VaadinWebSecurity {
                 .requestMatchers(new AntPathRequestMatcher("/line-awesome/**/*.svg")).permitAll());
 
         super.configure(http);
-        setLoginView(http, LoginView.class);
+        setLoginView(http, chatbot.class);
     }
 
 }
